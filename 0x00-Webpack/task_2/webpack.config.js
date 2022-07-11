@@ -9,10 +9,6 @@ module.exports = {
     path: path.resolve(__dirname, "public"),
     filename: "bundle.js",
   },
-  performance: {
-    maxAssetSize: 1000000,
-    maxEntrypointSize: 1000000,
-  },
   module: {
     rules: [
       {
@@ -20,8 +16,7 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
-        type: "asset/resource",
+        test: /\.(gif|png|jp?g|svg)$/i,
         use: [
           "file-loader",
           {
