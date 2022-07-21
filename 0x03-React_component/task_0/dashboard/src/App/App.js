@@ -46,4 +46,3 @@ App.propTypes = {
 };
 
 export default App;
-Footer;
