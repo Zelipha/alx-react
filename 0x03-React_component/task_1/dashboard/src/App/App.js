@@ -12,6 +12,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+    this.logOut = props.logOut;
     this.handleKeyPress = this.handleKeyPress.bind(this);
   }
 
@@ -30,7 +31,7 @@ class App extends React.Component {
   handleKeyPress(e) {
     if (e.ctrlKey && e.key === "h") {
       alert("Logging you out");
-      this.props.logOut();
+      this.logOut();
     }
   }
 
