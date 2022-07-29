@@ -48,7 +48,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <div className={css(styles.App)}>
-          <div className={css(styles["heading-section"])}>
+          <div className="heading-section">
             <Notifications listNotifications={this.listNotifications} />
             <Header />
           </div>
@@ -80,19 +80,6 @@ const styles = StyleSheet.create({
     maxWidth: "100vw",
     position: "relative",
     fontFamily: "Arial, Helvetica, sans-serif",
-  },
-  "heading-section": {
-    borderBottom: "4px solid red",
-    display: "flex",
-    justifyContent: "space-between",
-    flexDirection: "row-reverse",
-  },
-  "App-footer": {
-    borderTop: "4px solid red",
-    fontSize: "1.4rem",
-    padding: "0.5em",
-    textAlign: "center",
-    fontStyle: "italic",
   },
 });
 
