@@ -20,9 +20,6 @@ const styles = StyleSheet.create({
     display: "flex",
     alignItems: "center",
     borderBottom: "3px solid #e0354b",
-    // "@media (max-width: 375px)": {
-    //   visibility: "hidden",
-    // },
   },
 
   img: {
