@@ -39,6 +39,7 @@
     "@babel/runtime": "^7.18.6",
     "aphrodite": "^2.4.0",
     "inline-source-map": "^0.6.2",
+    "normalizr": "^3.6.2",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
